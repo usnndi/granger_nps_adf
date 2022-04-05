@@ -1,0 +1,9 @@
+{
+	"name": "NPS-ADF",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ebf62a29-e36a-4516-b5cf-62fb56123c6f",
+		"tenantId": "d0d2f78b-b92f-49b7-8f69-ade34fde2182"
+	}
+}
