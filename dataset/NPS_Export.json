@@ -10,6 +10,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@concat (‘NPS_Export_’ , formatDateTime(utcnow(), ‘yyyy’), formatDateTime(utcnow(), ‘MM’), formatDateTime(utcnow(), ‘dd’), ‘_’, formatDateTime(utcnow(), ‘HH’),formatDateTime(utcnow(), ‘mm’), formatDateTime(utcnow(), ‘ss’))",
+					"type": "Expression"
+				},
 				"folderPath": "nps_export",
 				"fileSystem": "nps-exports"
 			},
