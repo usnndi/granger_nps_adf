@@ -1,0 +1,22 @@
+{
+	"name": "NPSSQLDB",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "Driver={ODBC Driver 13 for SQL Server};Server=tcp:genesysnps.database.windows.net,1433;Database=NPS;Uid=setup;Pwd={your_password_here};Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "sqldbnpsuser"
+			},
+			"alwaysEncryptedSettings": {
+				"alwaysEncryptedAkvAuthType": "ManagedIdentity"
+			}
+		}
+	}
+}
