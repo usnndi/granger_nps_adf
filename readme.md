@@ -1,1 +1,1 @@
-Initialized by Azure Data Factory!
+# granger_nps_adf
