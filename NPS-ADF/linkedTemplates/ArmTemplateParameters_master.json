@@ -5,14 +5,14 @@
 		"factoryName": {
 			"value": "NPS-ADF"
 		},
-		"AzureDataLakeStorage1_accountKey": {
-			"value": ""
-		},
-		"AzureFileStorage1_connectionString": {
+		"NPSSQLDB_connectionString": {
 			"value": ""
 		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://sqlvaynr7jocbgmv6i.dfs.core.windows.net"
+		},
+		"AzureKeyVault_properties_typeProperties_baseUrl": {
+			"value": "https://Granger-NPS-KV.vault.azure.net/"
 		},
 		"containerUri": {
 			"value": ""
