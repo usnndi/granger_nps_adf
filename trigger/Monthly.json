@@ -1,0 +1,28 @@
+{
+	"name": "Monthly",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Month",
+				"interval": 1,
+				"startTime": "2022-04-05T22:59:00Z",
+				"timeZone": "UTC",
+				"schedule": {
+					"minutes": [
+						0
+					],
+					"hours": [
+						1
+					],
+					"monthDays": [
+						4
+					]
+				}
+			}
+		}
+	}
+}
